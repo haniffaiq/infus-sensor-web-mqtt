@@ -1,6 +1,12 @@
-import React from 'react'
+import { React, useState, useEffect } from 'react'
+
+
+
+
+
 
 function CardSensor(props) {
+
     return (
         <div>
             <div class="flex justify-center">
