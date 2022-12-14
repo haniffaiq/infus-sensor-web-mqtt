@@ -21,6 +21,7 @@ function CardSensor(props) {
                             Pada Card ini akan menampilkan informasi tentang <b>{props.title}</b>
                         </p>
                         <p class="text-gray-900 text-5xl font-medium mb-2">{props.data}</p>
+                        <p class="text-gray-900 text-xl font-small mb-2">{props.satuan}</p>
                         {/* <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button> */}
                     </div>
                     <div class="py-3 px-6 border-t border-gray-300 text-gray-600">

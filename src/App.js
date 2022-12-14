@@ -30,10 +30,10 @@ function App() {
       <div class="flex flex-row mt-10">
 
         <div class="flex-none md:flex-1 ...">
-        <CardSensor title="Volume Infus" data={sensor1}/>
+        <CardSensor title="Volume Infus" data={sensor1} satuan={"mL"}/>
         </div>
         <div class="flex-none md:flex-1 ...">
-        <CardSensor title="Kecepatan Cairan " data={sensor2}/>
+        <CardSensor title="Kecepatan Cairan " data={sensor2} satuan={"tetes / menit"}/>
         </div>
 
       </div>
